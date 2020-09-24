@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+button {
+    color: rgb(75, 73, 73);
+    border: 2px solid rgb(75, 73, 73);
+    background: white;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a::after {
+    content: '>';
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(67, 78, 179);
+    font-size: 20px;
+}
+a:hover {
+    opacity: 0.5;
+    transition: opacity .2s ease-in-out;
+}
+
+div {
+    line-height: 175%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 34%;
+    padding-left: 30.5%;
+    line-height: 1.6;
+    margin-top: 20px;
+}

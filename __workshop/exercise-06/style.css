@@ -4,10 +4,50 @@ body {
 
 .nav {
   background-color: #383737;
+  color: #fff;
+  position: absolute;
+  width: 100vw;
 }
 
-.nav-dropdown {
-  color: #fff;
-  text-decoration: none;
+.nav-items {
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
+
+.dropdown {
   display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.dropdown-content{
+  display: none;
+  background-color: #4564eb;
+  position: absolute;
+  z-index: -1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-left: 0;
+  padding-right: 20px;
+  position: absolute;
+}
+
+.alink {
+  margin-left: 20px;
+  align-items: center;
+}
+
+.dropdown-content--item {
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.dropdown-content--item:hover {
+  background-color: rgb(101, 101, 221);
 }

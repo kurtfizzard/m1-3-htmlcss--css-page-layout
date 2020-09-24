@@ -4,35 +4,74 @@ body {
 }
 
 .header {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 5px 10px lightslategrey;
 }
 
 .registration-form {
+  border: 2px solid rgba(168, 166, 166, 0.178);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px lightslategrey;
+  /* align-items: center; */
+  /* text-align: center; */
+  /* display: inline-block; */
+  margin-left: 20%;
+  padding: 10px;
+  width: 60%;
 }
 
 .text-field {
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin-left: 25%;
+  width: 50%;
 }
 
 .radio-label,
 .checkbox-label {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
 }
 
 label {
+ display: flex;
+ justify-content: center;
 }
 
 .section {
+  border-top: 2px solid lightslategrey;
+  margin-top: 10px;
 }
 
 .section > label {
+  display: inline block;
+  justify-content: left;
 }
 
 select {
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 textarea {
+  float: bottom;
+  width: 80%;
 }
 
 .form-button {
+ background-color: white;
+ border: 1px solid lightblue;
+ border-radius: 5px;
+ margin: 10px;
+ padding: 10px 20px;
+ transition: all 400ms;
 }
 
 .form-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: lightblue;
 }
